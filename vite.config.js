@@ -7,5 +7,10 @@ export default defineConfig({
     rollupOptions: {
       external: ['@google/generative-ai']
     }
+  },
+  resolve: {
+    alias: {
+      '@google/generative-ai': '/path/to/actual/module.js'
+    }
   }
 });
