@@ -8,9 +8,7 @@ export default defineConfig({
       external: ['@google/generative-ai']
     }
   },
-  resolve: {
-    alias: {
-      '@google/generative-ai': '\src\components\Storygenration.jsx'
-    }
+  esbuild: {
+    jsxInject: `import React from 'react';`
   }
 });
