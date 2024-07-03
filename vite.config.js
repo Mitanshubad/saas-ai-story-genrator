@@ -10,7 +10,7 @@ export default defineConfig({
   },
   resolve: {
     alias: {
-      '@google/generative-ai': '/path/to/actual/module.js'
+      '@google/generative-ai': 'frontend\src\components\Storygenration.jsx'
     }
   }
 });
