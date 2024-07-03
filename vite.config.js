@@ -9,8 +9,9 @@ export default defineConfig({
     }
   },
   resolve: {
-    alias: {
-      '@google/generative-ai': 'src'
-    }
+      alias: {
+      '@': '/src',  // Custom alias for your src folder
+
+    },
   }
 });
