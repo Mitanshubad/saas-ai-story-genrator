@@ -6,7 +6,7 @@ import { RouterProvider, createBrowserRouter } from 'react-router-dom';
 import Homepage from './pages/Homepage.jsx';
 import About from './pages/About.jsx';
 import Contact from './pages/Contact.jsx';
-import Service from './pages/Service.jsx';
+
 import Storygenration from './components/Storygenration.jsx';
 
 // Create the router with routes and children properly defined
@@ -22,10 +22,6 @@ const router = createBrowserRouter([
       {
         path: 'about',
         element: <About />
-      },
-      {
-        path: 'services',
-        element:<Service/>
       },
       {
         path: 'contact',
